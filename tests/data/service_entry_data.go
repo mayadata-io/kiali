@@ -1,7 +1,7 @@
 package data
 
 import (
-	"github.com/kiali/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/kubernetes"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

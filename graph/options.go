@@ -13,7 +13,7 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/prometheus/common/model"
 
-	"github.com/kiali/kiali/business"
+	"github.com/mayadata-io/kiali/business"
 )
 
 // The supported vendors

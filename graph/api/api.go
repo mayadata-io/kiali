@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/kiali/kiali/business"
-	"github.com/kiali/kiali/graph"
-	"github.com/kiali/kiali/graph/config/cytoscape"
-	"github.com/kiali/kiali/graph/telemetry/istio"
-	"github.com/kiali/kiali/log"
-	"github.com/kiali/kiali/prometheus"
-	"github.com/kiali/kiali/prometheus/internalmetrics"
+	"github.com/mayadata-io/kiali/business"
+	"github.com/mayadata-io/kiali/graph"
+	"github.com/mayadata-io/kiali/graph/config/cytoscape"
+	"github.com/mayadata-io/kiali/graph/telemetry/istio"
+	"github.com/mayadata-io/kiali/log"
+	"github.com/mayadata-io/kiali/prometheus"
+	"github.com/mayadata-io/kiali/prometheus/internalmetrics"
 )
 
 func GraphNamespaces(business *business.Layer, client *prometheus.Client, o graph.Options) (int, interface{}) {

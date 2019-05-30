@@ -17,11 +17,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/kiali/kiali/business"
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/kubernetes/kubetest"
-	"github.com/kiali/kiali/prometheus"
-	"github.com/kiali/kiali/prometheus/prometheustest"
+	"github.com/mayadata-io/kiali/business"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/kubernetes/kubetest"
+	"github.com/mayadata-io/kiali/prometheus"
+	"github.com/mayadata-io/kiali/prometheus/prometheustest"
 )
 
 // TestServiceMetricsDefault is unit test (testing request handling, not the prometheus client behaviour)

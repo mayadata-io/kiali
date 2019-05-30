@@ -17,9 +17,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/kiali/kiali/kubernetes/kubetest"
-	"github.com/kiali/kiali/prometheus"
-	"github.com/kiali/kiali/prometheus/prometheustest"
+	"github.com/mayadata-io/kiali/kubernetes/kubetest"
+	"github.com/mayadata-io/kiali/prometheus"
+	"github.com/mayadata-io/kiali/prometheus/prometheustest"
 )
 
 // TestNamespaceMetricsDefault is unit test (testing request handling, not the prometheus client behaviour)

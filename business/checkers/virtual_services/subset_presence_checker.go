@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/kiali/kiali/kubernetes"
-	"github.com/kiali/kiali/models"
+	"github.com/mayadata-io/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/models"
 )
 
 type SubsetPresenceChecker struct {

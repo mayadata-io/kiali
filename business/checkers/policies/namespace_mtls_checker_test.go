@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/kubernetes"
-	"github.com/kiali/kiali/models"
-	"github.com/kiali/kiali/tests/data"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/models"
+	"github.com/mayadata-io/kiali/tests/data"
 )
 
 // Describe the validation of a Policy that enables mTLS for one namespace. The validation is risen when there isn't any

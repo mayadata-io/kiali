@@ -1,6 +1,6 @@
 package checkers
 
-import "github.com/kiali/kiali/models"
+import "github.com/mayadata-io/kiali/models"
 
 type Checker interface {
 	Check() ([]*models.IstioCheck, bool)

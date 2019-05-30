@@ -8,10 +8,10 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/kiali/kiali/business"
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/log"
-	"github.com/kiali/kiali/models"
+	"github.com/mayadata-io/kiali/business"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/log"
+	"github.com/mayadata-io/kiali/models"
 	"k8s.io/apimachinery/pkg/api/errors"
 )
 

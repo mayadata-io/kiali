@@ -36,10 +36,10 @@ import (
 	"net/http"
 	"runtime/debug"
 
-	"github.com/kiali/kiali/graph"
-	"github.com/kiali/kiali/graph/api"
-	"github.com/kiali/kiali/log"
-	"github.com/kiali/kiali/prometheus"
+	"github.com/mayadata-io/kiali/graph"
+	"github.com/mayadata-io/kiali/graph/api"
+	"github.com/mayadata-io/kiali/log"
+	"github.com/mayadata-io/kiali/prometheus"
 )
 
 // GraphNamespaces is a REST http.HandlerFunc handling graph generation for 1 or more namespaces

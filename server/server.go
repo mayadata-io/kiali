@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/log"
-	"github.com/kiali/kiali/routing"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/log"
+	"github.com/mayadata-io/kiali/routing"
 )
 
 type Server struct {

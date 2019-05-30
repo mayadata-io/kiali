@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/kiali/kiali/models"
-	"github.com/kiali/kiali/prometheus"
+	"github.com/mayadata-io/kiali/models"
+	"github.com/mayadata-io/kiali/prometheus"
 )
 
 func TestExtractMetricsQueryParams(t *testing.T) {

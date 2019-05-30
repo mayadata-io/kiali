@@ -3,7 +3,7 @@ package data
 import (
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/kiali/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/kubernetes"
 )
 
 func CreateEmptyMeshPolicy(name string, peers []interface{}) kubernetes.IstioObject {

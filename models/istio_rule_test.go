@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/kiali/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/kubernetes"
 )
 
 func TestIstioRulesParsing(t *testing.T) {

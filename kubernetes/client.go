@@ -23,8 +23,8 @@ import (
 	kube "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	kialiConfig "github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/log"
+	kialiConfig "github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/log"
 )
 
 var (

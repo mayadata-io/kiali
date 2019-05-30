@@ -11,8 +11,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/log"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/log"
 )
 
 var (

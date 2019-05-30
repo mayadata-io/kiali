@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
-	"github.com/kiali/kiali/business"
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/kubernetes"
-	"github.com/kiali/kiali/log"
+	"github.com/mayadata-io/kiali/business"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/log"
 )
 
 const (

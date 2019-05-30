@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/kiali/kiali/log"
-	"github.com/kiali/kiali/models"
-	"github.com/kiali/kiali/prometheus"
-	"github.com/kiali/kiali/util"
+	"github.com/mayadata-io/kiali/log"
+	"github.com/mayadata-io/kiali/models"
+	"github.com/mayadata-io/kiali/prometheus"
+	"github.com/mayadata-io/kiali/util"
 )
 
 func extractIstioMetricsQueryParams(r *http.Request, q *prometheus.IstioMetricsQuery, namespaceInfo *models.Namespace) error {

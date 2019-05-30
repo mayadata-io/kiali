@@ -5,7 +5,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/kiali/kiali/log"
+	"github.com/mayadata-io/kiali/log"
 )
 
 // NamespaceTls is the API to get namespace-wide mTLS status

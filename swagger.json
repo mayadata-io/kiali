@@ -3120,14 +3120,14 @@
           "x-go-name": "Name"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "Addresses": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/Address"
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "Aggregation": {
       "description": "Aggregation is the model representing label's allowed aggregation, transformed from aggregation in MonitoringDashboard k8s resource",
@@ -3142,7 +3142,7 @@
           "x-go-name": "Label"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "App": {
       "type": "object",
@@ -3187,7 +3187,7 @@
           "x-go-name": "Workloads"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "AppHealth": {
       "description": "AppHealth contains aggregated health from various sources, for a given app",
@@ -3204,7 +3204,7 @@
           "x-go-name": "WorkloadStatuses"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "AppList": {
       "type": "object",
@@ -3225,7 +3225,7 @@
           "$ref": "#/definitions/namespace"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "AppListItem": {
       "description": "AppListItem has the necessary information to display the console app list",
@@ -3248,12 +3248,12 @@
           "example": "reviews"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "CauseType": {
       "description": "CauseType is a machine readable value providing more detail about what\noccurred in a status response. An operation may have multiple causes for a\nstatus (whether Failure or Success).",
       "type": "string",
-      "x-go-package": "github.com/kiali/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
+      "x-go-package": "github.com/mayadata-io/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
     },
     "Chart": {
       "description": "Chart is the model representing a custom chart, transformed from charts in MonitoringDashboard k8s resource",
@@ -3279,7 +3279,7 @@
           "x-go-name": "Unit"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "ClusterRbacConfig": {
       "type": "object",
@@ -3316,14 +3316,14 @@
           "x-go-name": "Spec"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "ClusterRbacConfigs": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/ClusterRbacConfig"
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "Config": {
       "type": "object",
@@ -3346,7 +3346,7 @@
           "x-go-name": "Timestamp"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/graph/config/cytoscape"
+      "x-go-package": "github.com/mayadata-io/kiali/graph/config/cytoscape"
     },
     "ContainerInfo": {
       "description": "ContainerInfo holds container name and image",
@@ -3361,7 +3361,7 @@
           "x-go-name": "Name"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "DashboardRef": {
       "description": "DashboardRef holds template name and title for a custom dashboard",
@@ -3376,7 +3376,7 @@
           "x-go-name": "Title"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "EdgeData": {
       "type": "object",
@@ -3406,7 +3406,7 @@
           "$ref": "#/definitions/ProtocolTraffic"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/graph/config/cytoscape"
+      "x-go-package": "github.com/mayadata-io/kiali/graph/config/cytoscape"
     },
     "EdgeWrapper": {
       "type": "object",
@@ -3415,7 +3415,7 @@
           "$ref": "#/definitions/EdgeData"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/graph/config/cytoscape"
+      "x-go-package": "github.com/mayadata-io/kiali/graph/config/cytoscape"
     },
     "Elements": {
       "type": "object",
@@ -3435,7 +3435,7 @@
           "x-go-name": "Nodes"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/graph/config/cytoscape"
+      "x-go-package": "github.com/mayadata-io/kiali/graph/config/cytoscape"
     },
     "Endpoint": {
       "type": "object",
@@ -3447,14 +3447,14 @@
           "$ref": "#/definitions/Ports"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "Endpoints": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/Endpoint"
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "Gateway": {
       "type": "object",
@@ -3487,14 +3487,14 @@
           "x-go-name": "Spec"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "Gateways": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/Gateway"
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "GrafanaInfo": {
       "description": "GrafanaInfo provides information to access Grafana dashboards",
@@ -3525,7 +3525,7 @@
           "x-go-name": "WorkloadDashboardPath"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "Histogram": {
       "description": "Histogram contains Metric objects for several histogram-kind statistics",
@@ -3533,7 +3533,7 @@
       "additionalProperties": {
         "$ref": "#/definitions/Metric"
       },
-      "x-go-package": "github.com/kiali/kiali/prometheus"
+      "x-go-package": "github.com/mayadata-io/kiali/prometheus"
     },
     "Initializer": {
       "type": "object",
@@ -3545,7 +3545,7 @@
           "x-go-name": "Name"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
+      "x-go-package": "github.com/mayadata-io/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
     },
     "Initializers": {
       "type": "object",
@@ -3563,7 +3563,7 @@
           "$ref": "#/definitions/Status"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
+      "x-go-package": "github.com/mayadata-io/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
     },
     "IstioCheck": {
       "type": "object",
@@ -3589,7 +3589,7 @@
           "$ref": "#/definitions/SeverityLevel"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "IstioConfigDetails": {
       "type": "object",
@@ -3653,7 +3653,7 @@
           "$ref": "#/definitions/virtualService"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "IstioConfigList": {
       "description": "This type is used for returning a response of IstioConfigList",
@@ -3715,7 +3715,7 @@
           "$ref": "#/definitions/virtualServices"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "IstioValidation": {
       "type": "object",
@@ -3753,11 +3753,11 @@
           "example": false
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "IstioValidations": {
       "title": "IstioValidations represents a set of IstioValidation grouped by IstioValidationKey.",
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "JaegerInfo": {
       "description": "JaegerInfo provides information to access Jaeger UI",
@@ -3768,7 +3768,7 @@
           "x-go-name": "URL"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "MTLSStatus": {
       "description": "MTLSStatus describes the current mTLS status of a mesh entity",
@@ -3784,7 +3784,7 @@
           "example": "MTLS_ENABLED"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "Matrix": {
       "type": "array",
@@ -3792,14 +3792,14 @@
       "items": {
         "$ref": "#/definitions/SampleStream"
       },
-      "x-go-package": "github.com/kiali/kiali/vendor/github.com/prometheus/common/model"
+      "x-go-package": "github.com/mayadata-io/kiali/vendor/github.com/prometheus/common/model"
     },
     "MeshPolicies": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/MeshPolicy"
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "MeshPolicy": {
       "type": "object",
@@ -3848,7 +3848,7 @@
           "x-go-name": "Spec"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "Metric": {
       "description": "Metric holds the Prometheus Matrix model, which contains one or more time series (depending on grouping)",
@@ -3858,7 +3858,7 @@
           "$ref": "#/definitions/Matrix"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/prometheus"
+      "x-go-package": "github.com/mayadata-io/kiali/prometheus"
     },
     "Metrics": {
       "description": "Metrics contains all simple metrics and histograms data",
@@ -3879,7 +3879,7 @@
           "x-go-name": "Metrics"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/prometheus"
+      "x-go-package": "github.com/mayadata-io/kiali/prometheus"
     },
     "MonitoringDashboard": {
       "description": "MonitoringDashboard is the model representing custom monitoring dashboard, transformed from MonitoringDashboard k8s resource",
@@ -3904,7 +3904,7 @@
           "x-go-name": "Title"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "NamespaceAppHealth": {
       "description": "NamespaceAppHealth is an alias of map of app name x health",
@@ -3912,7 +3912,7 @@
       "additionalProperties": {
         "$ref": "#/definitions/AppHealth"
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "NodeData": {
       "type": "object",
@@ -4010,7 +4010,7 @@
           "x-go-name": "Workload"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/graph/config/cytoscape"
+      "x-go-package": "github.com/mayadata-io/kiali/graph/config/cytoscape"
     },
     "NodeWrapper": {
       "type": "object",
@@ -4019,7 +4019,7 @@
           "$ref": "#/definitions/NodeData"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/graph/config/cytoscape"
+      "x-go-package": "github.com/mayadata-io/kiali/graph/config/cytoscape"
     },
     "ObjectMeta": {
       "description": "ObjectMeta is metadata that all persisted resources must have, which includes all objects\nusers must create.",
@@ -4112,7 +4112,7 @@
           "$ref": "#/definitions/UID"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
+      "x-go-package": "github.com/mayadata-io/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
     },
     "OwnerReference": {
       "description": "OwnerReference contains enough information to let you identify an owning\nobject. Currently, an owning object must be in the same namespace, so there\nis no namespace field.",
@@ -4147,7 +4147,7 @@
           "$ref": "#/definitions/UID"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
+      "x-go-package": "github.com/mayadata-io/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
     },
     "Pod": {
       "description": "Pod holds a subset of v1.Pod data that is meaningful in Kiali",
@@ -4216,7 +4216,7 @@
           "x-go-name": "VersionLabel"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "Pods": {
       "description": "Pods alias for list of Pod structs",
@@ -4224,14 +4224,14 @@
       "items": {
         "$ref": "#/definitions/Pod"
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "Policies": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/Policy"
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "Policy": {
       "type": "object",
@@ -4280,7 +4280,7 @@
           "x-go-name": "Spec"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "Port": {
       "type": "object",
@@ -4299,14 +4299,14 @@
           "x-go-name": "Protocol"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "Ports": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/Port"
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "ProtocolTraffic": {
       "type": "object",
@@ -4326,7 +4326,7 @@
           "$ref": "#/definitions/Responses"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/graph/config/cytoscape"
+      "x-go-package": "github.com/mayadata-io/kiali/graph/config/cytoscape"
     },
     "QuotaSpec": {
       "type": "object",
@@ -4355,7 +4355,7 @@
           "x-go-name": "Spec"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "QuotaSpecBinding": {
       "type": "object",
@@ -4388,21 +4388,21 @@
           "x-go-name": "Spec"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "QuotaSpecBindings": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/QuotaSpecBinding"
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "QuotaSpecs": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/QuotaSpec"
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "RbacConfig": {
       "type": "object",
@@ -4439,14 +4439,14 @@
           "x-go-name": "Spec"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "RbacConfigs": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/RbacConfig"
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "Reference": {
       "description": "Reference holds some information on the pod creator",
@@ -4461,7 +4461,7 @@
           "x-go-name": "Name"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "RequestHealth": {
       "description": "RequestHealth holds several stats about recent request errors",
@@ -4483,7 +4483,7 @@
           "x-go-name": "OutboundErrorRatio"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "ResourcePermissions": {
       "description": "ResourcePermissions holds permission flags for an object type\nTrue means allowed.",
@@ -4502,7 +4502,7 @@
           "x-go-name": "Update"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "ResponseFlags": {
       "description": "\"200\" : {\n\"-\"     : \"80.0\",\n\"DC\"    : \"10.0\",\n\"FI,FD\" : \"10.0\"\n}, ...",
@@ -4511,14 +4511,14 @@
       "additionalProperties": {
         "type": "string"
       },
-      "x-go-package": "github.com/kiali/kiali/graph/config/cytoscape"
+      "x-go-package": "github.com/mayadata-io/kiali/graph/config/cytoscape"
     },
     "Responses": {
       "type": "object",
       "additionalProperties": {
         "$ref": "#/definitions/ResponseFlags"
       },
-      "x-go-package": "github.com/kiali/kiali/graph/config/cytoscape"
+      "x-go-package": "github.com/mayadata-io/kiali/graph/config/cytoscape"
     },
     "Runtime": {
       "description": "Runtime holds the runtime title and associated dashboard template(s)",
@@ -4536,7 +4536,7 @@
           "x-go-name": "Name"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "SamplePair": {
       "type": "object",
@@ -4549,7 +4549,7 @@
           "$ref": "#/definitions/SampleValue"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/vendor/github.com/prometheus/common/model"
+      "x-go-package": "github.com/mayadata-io/kiali/vendor/github.com/prometheus/common/model"
     },
     "SampleStream": {
       "type": "object",
@@ -4566,13 +4566,13 @@
           "x-go-name": "Values"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/vendor/github.com/prometheus/common/model"
+      "x-go-package": "github.com/mayadata-io/kiali/vendor/github.com/prometheus/common/model"
     },
     "SampleValue": {
       "description": "A SampleValue is a representation of a value for a given sample at a given\ntime.",
       "type": "number",
       "format": "double",
-      "x-go-package": "github.com/kiali/kiali/vendor/github.com/prometheus/common/model"
+      "x-go-package": "github.com/mayadata-io/kiali/vendor/github.com/prometheus/common/model"
     },
     "Service": {
       "type": "object",
@@ -4622,7 +4622,7 @@
           "x-go-name": "Type"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "ServiceDetails": {
       "type": "object",
@@ -4661,14 +4661,14 @@
           "$ref": "#/definitions/WorkloadOverviews"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "ServiceEntries": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/ServiceEntry"
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "ServiceEntry": {
       "type": "object",
@@ -4717,7 +4717,7 @@
           "x-go-name": "Spec"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "ServiceHealth": {
       "description": "ServiceHealth contains aggregated health from various sources, for a given service",
@@ -4727,7 +4727,7 @@
           "$ref": "#/definitions/RequestHealth"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "ServiceList": {
       "type": "object",
@@ -4746,7 +4746,7 @@
           "$ref": "#/definitions/IstioValidations"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "ServiceOverview": {
       "type": "object",
@@ -4775,7 +4775,7 @@
           "example": "reviews-v1"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "ServiceRole": {
       "type": "object",
@@ -4804,7 +4804,7 @@
           "x-go-name": "Spec"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "ServiceRoleBinding": {
       "type": "object",
@@ -4837,32 +4837,32 @@
           "x-go-name": "Spec"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "ServiceRoleBindings": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/ServiceRoleBinding"
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "ServiceRoles": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/ServiceRole"
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "Services": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/Service"
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "SeverityLevel": {
       "type": "string",
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "Status": {
       "type": "object",
@@ -4916,7 +4916,7 @@
           "x-go-name": "Status"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
+      "x-go-package": "github.com/mayadata-io/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
     },
     "StatusCause": {
       "description": "StatusCause provides more information about an api.Status failure, including\ncases when multiple errors are encountered.",
@@ -4936,7 +4936,7 @@
           "$ref": "#/definitions/CauseType"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
+      "x-go-package": "github.com/mayadata-io/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
     },
     "StatusDetails": {
       "description": "StatusDetails is a set of additional properties that MAY be set by the\nserver to provide additional information about a response. The Reason\nfield of a Status object defines what attributes will be set. Clients\nmust ignore fields that do not match the defined type of each attribute,\nand should assume that any attribute may be empty, invalid, or under\ndefined.",
@@ -4975,7 +4975,7 @@
           "$ref": "#/definitions/UID"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
+      "x-go-package": "github.com/mayadata-io/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
     },
     "StatusInfo": {
       "description": "This is used for returning a response of Kiali Status",
@@ -5012,12 +5012,12 @@
           "x-go-name": "WarningMessages"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/status"
+      "x-go-package": "github.com/mayadata-io/kiali/status"
     },
     "StatusReason": {
       "description": "StatusReason is an enumeration of possible failure causes.  Each StatusReason\nmust map to a single HTTP status code, but multiple reasons may map\nto the same HTTP status code.\nTODO: move to apiserver",
       "type": "string",
-      "x-go-package": "github.com/kiali/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
+      "x-go-package": "github.com/mayadata-io/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
     },
     "ThreeScaleHandler": {
       "description": "ThreeScaleHAndler represents the minimal info that a user needs to know from the UI to link a service with 3Scale site",
@@ -5040,14 +5040,14 @@
           "x-go-name": "SystemUrl"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "ThreeScaleHandlers": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/ThreeScaleHandler"
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "ThreeScaleInfo": {
       "description": "ThreeScaleInfo shows if 3scale adapter is enabled in cluster and if user has permissions on adapter's configuration",
@@ -5061,7 +5061,7 @@
           "$ref": "#/definitions/ResourcePermissions"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "ThreeScaleServiceRule": {
       "type": "object",
@@ -5079,13 +5079,13 @@
           "x-go-name": "ThreeScaleHandlerName"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "Time": {
       "description": "+protobuf.options.marshal=false\n+protobuf.as=Timestamp\n+protobuf.options.(gogoproto.goproto_stringer)=false",
       "type": "object",
       "title": "Time is a wrapper around time.Time which supports correct\nmarshaling to YAML and JSON.  Wrappers are provided for many\nof the factory methods that the time package offers.",
-      "x-go-package": "github.com/kiali/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
+      "x-go-package": "github.com/mayadata-io/kiali/vendor/k8s.io/apimachinery/pkg/apis/meta/v1"
     },
     "TokenResponse": {
       "description": "This is used for returning the token",
@@ -5116,12 +5116,12 @@
           "example": "admin"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/handlers"
+      "x-go-package": "github.com/mayadata-io/kiali/handlers"
     },
     "UID": {
       "description": "UID is a type that holds unique ID values, including UUIDs.  Because we\ndon't ONLY use UUIDs, this is an alias to string.  Being a type captures\nintent and helps make sure that UIDs and names do not get conflated.",
       "type": "string",
-      "x-go-package": "github.com/kiali/kiali/vendor/k8s.io/apimachinery/pkg/types"
+      "x-go-package": "github.com/mayadata-io/kiali/vendor/k8s.io/apimachinery/pkg/types"
     },
     "Workload": {
       "description": "Workload has the details of a workload",
@@ -5233,7 +5233,7 @@
           "example": true
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "WorkloadHealth": {
       "description": "WorkloadHealth contains aggregated health from various sources, for a given workload",
@@ -5246,7 +5246,7 @@
           "$ref": "#/definitions/WorkloadStatus"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "WorkloadItem": {
       "type": "object",
@@ -5268,7 +5268,7 @@
           "example": "reviews-v1"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "WorkloadList": {
       "type": "object",
@@ -5289,7 +5289,7 @@
           "x-go-name": "Workloads"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "WorkloadListItem": {
       "description": "WorkloadListItem has the necessary information to display the console workload list",
@@ -5363,14 +5363,14 @@
           "example": true
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "WorkloadOverviews": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/WorkloadListItem"
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "WorkloadStatus": {
       "description": "WorkloadStatus gives\nnumber of desired replicas defined in the Spec of a controller\nnumber of current replicas that matches selector of a controller\nnumber of available replicas for a given workload\nIn healthy scenarios all variables should point same value.\nWhen something wrong happens the different values can indicate an unhealthy situation.\ni.e.\ndesired = 1, current = 10, available = 0 would means that a user scaled down a workload from 10 to 1\nbut in the operaton 10 pods showed problems, so no pod is available/ready but user will see 10 pods under a workload",
@@ -5396,7 +5396,7 @@
           "x-go-name": "Name"
         }
       },
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "destinationRule": {
       "description": "This is used for returning a DestinationRule",
@@ -5436,7 +5436,7 @@
         }
       },
       "x-go-name": "DestinationRule",
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "destinationRules": {
       "description": "This is used for returning an array of DestinationRules",
@@ -5455,7 +5455,7 @@
         }
       },
       "x-go-name": "DestinationRules",
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "externalServiceInfo": {
       "description": "This is used for returning a response of Kiali Status",
@@ -5485,7 +5485,7 @@
         }
       },
       "x-go-name": "ExternalServiceInfo",
-      "x-go-package": "github.com/kiali/kiali/status"
+      "x-go-package": "github.com/mayadata-io/kiali/status"
     },
     "istioAdapter": {
       "description": "This type type is used for returning a IstioAdapter",
@@ -5520,7 +5520,7 @@
         }
       },
       "x-go-name": "IstioAdapter",
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "istioAdapters": {
       "description": "This type type is used for returning an array of IstioAdapters",
@@ -5530,7 +5530,7 @@
         "$ref": "#/definitions/istioAdapter"
       },
       "x-go-name": "IstioAdapters",
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "istioRule": {
       "description": "This type type is used for returning a IstioRule",
@@ -5566,7 +5566,7 @@
         }
       },
       "x-go-name": "IstioRule",
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "istioRules": {
       "description": "This type type is used for returning an array of IstioRules",
@@ -5576,7 +5576,7 @@
         "$ref": "#/definitions/istioRule"
       },
       "x-go-name": "IstioRules",
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "istioTemplate": {
       "description": "This type type is used for returning a IstioTemplate",
@@ -5611,7 +5611,7 @@
         }
       },
       "x-go-name": "IstioTemplate",
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "istioTemplates": {
       "description": "This type type is used for returning an array of IstioTemplates",
@@ -5621,7 +5621,7 @@
         "$ref": "#/definitions/istioTemplate"
       },
       "x-go-name": "IstioTemplates",
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "namespace": {
       "description": "A Namespace provide a scope for names\nThis type is used to describe a set of objects.",
@@ -5638,7 +5638,7 @@
         }
       },
       "x-go-name": "Namespace",
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "virtualService": {
       "description": "This type is used for returning a VirtualService",
@@ -5686,7 +5686,7 @@
         }
       },
       "x-go-name": "VirtualService",
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     },
     "virtualServices": {
       "description": "This type is used for returning an array of VirtualServices with some permission flags",
@@ -5705,7 +5705,7 @@
         }
       },
       "x-go-name": "VirtualServices",
-      "x-go-package": "github.com/kiali/kiali/models"
+      "x-go-package": "github.com/mayadata-io/kiali/models"
     }
   },
   "responses": {

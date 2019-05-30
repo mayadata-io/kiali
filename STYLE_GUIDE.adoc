@@ -35,7 +35,7 @@ import (
 
 	"github.com/dgrijalva/jwt-go"
 
-	"github.com/kiali/kiali/log"
+	"github.com/mayadata-io/kiali/log"
 )
 ----
 

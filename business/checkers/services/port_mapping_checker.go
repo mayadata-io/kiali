@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kiali/kiali/kubernetes"
-	"github.com/kiali/kiali/models"
+	"github.com/mayadata-io/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/models"
 	apps_v1 "k8s.io/api/apps/v1"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/labels"

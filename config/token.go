@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
-	"github.com/kiali/kiali/util"
+	"github.com/mayadata-io/kiali/util"
 )
 
 // Structured version of Claims Section, as referenced at

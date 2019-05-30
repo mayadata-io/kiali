@@ -17,9 +17,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/config/security"
-	"github.com/kiali/kiali/util"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/config/security"
+	"github.com/mayadata-io/kiali/util"
 )
 
 const (

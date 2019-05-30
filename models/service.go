@@ -3,7 +3,7 @@ package models
 import (
 	core_v1 "k8s.io/api/core/v1"
 
-	"github.com/kiali/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/kubernetes"
 )
 
 type ServiceOverview struct {

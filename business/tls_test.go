@@ -6,10 +6,10 @@ import (
 	osproject_v1 "github.com/openshift/api/project/v1"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/kubernetes"
-	"github.com/kiali/kiali/kubernetes/kubetest"
-	"github.com/kiali/kiali/tests/data"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/kubernetes/kubetest"
+	"github.com/mayadata-io/kiali/tests/data"
 	"github.com/stretchr/testify/assert"
 )
 

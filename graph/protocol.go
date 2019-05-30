@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kiali/kiali/log"
+	"github.com/mayadata-io/kiali/log"
 )
 
 // constanst usable by any protocol

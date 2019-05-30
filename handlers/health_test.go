@@ -15,11 +15,11 @@ import (
 	"github.com/stretchr/testify/mock"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/kiali/kiali/business"
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/kubernetes/kubetest"
-	"github.com/kiali/kiali/prometheus/prometheustest"
-	"github.com/kiali/kiali/util"
+	"github.com/mayadata-io/kiali/business"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/kubernetes/kubetest"
+	"github.com/mayadata-io/kiali/prometheus/prometheustest"
+	"github.com/mayadata-io/kiali/util"
 )
 
 // TestNamespaceAppHealth is unit test (testing request handling, not the prometheus client behaviour)

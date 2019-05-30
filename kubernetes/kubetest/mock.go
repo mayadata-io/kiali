@@ -3,7 +3,7 @@ package kubetest
 import (
 	"fmt"
 
-	"github.com/kiali/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/kubernetes"
 	osapps_v1 "github.com/openshift/api/apps/v1"
 	osproject_v1 "github.com/openshift/api/project/v1"
 	osroutes_v1 "github.com/openshift/api/route/v1"

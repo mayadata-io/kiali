@@ -1,7 +1,7 @@
 package mock
 
 import (
-	"github.com/kiali/kiali/kubernetes/kiali_monitoring/v1alpha1"
+	"github.com/mayadata-io/kiali/kubernetes/kiali_monitoring/v1alpha1"
 )
 
 func FakeChart(id, dataType string) v1alpha1.MonitoringDashboardChart {

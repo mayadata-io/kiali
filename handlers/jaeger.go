@@ -3,8 +3,8 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/models"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/models"
 )
 
 // Get JaegerInfo provides the proxy Jaeger URL

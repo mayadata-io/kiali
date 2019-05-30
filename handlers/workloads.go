@@ -11,8 +11,8 @@ import (
 	"k8s.io/apimachinery/pkg/api/errors"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/kiali/kiali/business"
-	"github.com/kiali/kiali/prometheus"
+	"github.com/mayadata-io/kiali/business"
+	"github.com/mayadata-io/kiali/prometheus"
 )
 
 // WorkloadList is the API handler to fetch all the workloads to be displayed, related to a single namespace

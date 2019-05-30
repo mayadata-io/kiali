@@ -12,8 +12,8 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/kiali/kiali/config/security"
-	"github.com/kiali/kiali/log"
+	"github.com/mayadata-io/kiali/config/security"
+	"github.com/mayadata-io/kiali/log"
 )
 
 // Environment vars can define some default values.

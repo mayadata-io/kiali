@@ -6,8 +6,8 @@ import (
 
 	"k8s.io/client-go/rest"
 
-	"github.com/kiali/kiali/log"
-	"github.com/kiali/kiali/prometheus/internalmetrics"
+	"github.com/mayadata-io/kiali/log"
+	"github.com/mayadata-io/kiali/prometheus/internalmetrics"
 )
 
 var factory *clientFactory

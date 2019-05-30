@@ -6,7 +6,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/kiali/kiali/config/security"
+	"github.com/mayadata-io/kiali/config/security"
 )
 
 func TestEnvVar(t *testing.T) {

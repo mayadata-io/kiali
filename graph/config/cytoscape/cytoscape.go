@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/kiali/kiali/graph"
+	"github.com/mayadata-io/kiali/graph"
 )
 
 // ProtocolTraffic.Responses is a map of maps. Each response code is broken down by responseFlags:percentageOfTraffic, e.g.:

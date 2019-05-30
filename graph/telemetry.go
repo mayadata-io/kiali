@@ -1,7 +1,7 @@
 package graph
 
 import (
-	"github.com/kiali/kiali/prometheus"
+	"github.com/mayadata-io/kiali/prometheus"
 )
 
 // TelemetryVendor is an interface that must be satisfied for each telemetry implementation.

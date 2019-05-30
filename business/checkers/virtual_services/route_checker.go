@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/kiali/kiali/kubernetes"
-	"github.com/kiali/kiali/log"
-	"github.com/kiali/kiali/models"
-	"github.com/kiali/kiali/util/intutil"
+	"github.com/mayadata-io/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/log"
+	"github.com/mayadata-io/kiali/models"
+	"github.com/mayadata-io/kiali/util/intutil"
 )
 
 type RouteChecker struct {

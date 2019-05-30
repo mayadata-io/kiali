@@ -9,11 +9,11 @@ import (
 	"github.com/stretchr/testify/mock"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/kiali/kiali/config"
-	kmock "github.com/kiali/kiali/kubernetes/kiali_monitoring/mock"
-	"github.com/kiali/kiali/kubernetes/kiali_monitoring/v1alpha1"
-	"github.com/kiali/kiali/prometheus"
-	"github.com/kiali/kiali/prometheus/prometheustest"
+	"github.com/mayadata-io/kiali/config"
+	kmock "github.com/mayadata-io/kiali/kubernetes/kiali_monitoring/mock"
+	"github.com/mayadata-io/kiali/kubernetes/kiali_monitoring/v1alpha1"
+	"github.com/mayadata-io/kiali/prometheus"
+	"github.com/mayadata-io/kiali/prometheus/prometheustest"
 )
 
 type k8sKialiMonitoringClientMock struct {

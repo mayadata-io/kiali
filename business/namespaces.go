@@ -6,10 +6,10 @@ import (
 	osproject_v1 "github.com/openshift/api/project/v1"
 	core_v1 "k8s.io/api/core/v1"
 
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/kubernetes"
-	"github.com/kiali/kiali/models"
-	"github.com/kiali/kiali/prometheus/internalmetrics"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/models"
+	"github.com/mayadata-io/kiali/prometheus/internalmetrics"
 )
 
 // Namespace deals with fetching k8s namespaces / OpenShift projects and convert to kiali model

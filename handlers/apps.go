@@ -6,10 +6,10 @@ import (
 	"github.com/gorilla/mux"
 	"k8s.io/apimachinery/pkg/api/errors"
 
-	"github.com/kiali/kiali/business"
-	"github.com/kiali/kiali/kubernetes"
-	"github.com/kiali/kiali/log"
-	"github.com/kiali/kiali/prometheus"
+	"github.com/mayadata-io/kiali/business"
+	"github.com/mayadata-io/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/log"
+	"github.com/mayadata-io/kiali/prometheus"
 )
 
 // AppList is the API handler to fetch all the apps to be displayed, related to a single namespace

@@ -1,8 +1,8 @@
 package graph
 
 import (
-	"github.com/kiali/kiali/business"
-	"github.com/kiali/kiali/prometheus"
+	"github.com/mayadata-io/kiali/business"
+	"github.com/mayadata-io/kiali/prometheus"
 )
 
 type AppenderVendorInfo map[string]interface{}

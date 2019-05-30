@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/graph"
-	"github.com/kiali/kiali/models"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/graph"
+	"github.com/mayadata-io/kiali/models"
 )
 
 const (

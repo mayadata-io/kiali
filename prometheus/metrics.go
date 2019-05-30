@@ -10,7 +10,7 @@ import (
 	prom_v1 "github.com/prometheus/client_golang/api/prometheus/v1"
 	"github.com/prometheus/common/model"
 
-	"github.com/kiali/kiali/prometheus/internalmetrics"
+	"github.com/mayadata-io/kiali/prometheus/internalmetrics"
 )
 
 func getMetrics(api prom_v1.API, q *IstioMetricsQuery) Metrics {

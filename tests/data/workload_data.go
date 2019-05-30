@@ -1,6 +1,6 @@
 package data
 
-import "github.com/kiali/kiali/models"
+import "github.com/mayadata-io/kiali/models"
 
 func CreateWorkloadList(namespace string, items ...models.WorkloadListItem) models.WorkloadList {
 	return models.WorkloadList{

@@ -3,8 +3,8 @@ package handlers
 import (
 	"encoding/json"
 	"github.com/dgrijalva/jwt-go"
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/util"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/util"
 	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"net/http"

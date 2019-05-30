@@ -10,7 +10,7 @@ import (
 	prom_v1 "github.com/prometheus/client_golang/api/prometheus/v1"
 	"github.com/prometheus/common/model"
 
-	"github.com/kiali/kiali/config"
+	"github.com/mayadata-io/kiali/config"
 )
 
 // ClientInterface for mocks (only mocked function are necessary here)

@@ -1,8 +1,8 @@
 package business
 
 import (
-	"github.com/kiali/kiali/kubernetes"
-	"github.com/kiali/kiali/prometheus"
+	"github.com/mayadata-io/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/prometheus"
 )
 
 // Layer is a container for fast access to inner services

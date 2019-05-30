@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/kiali/kiali/prometheus"
+	"github.com/mayadata-io/kiali/prometheus"
 	prom_v1 "github.com/prometheus/client_golang/api/prometheus/v1"
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/mock"

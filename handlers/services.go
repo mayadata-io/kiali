@@ -7,10 +7,10 @@ import (
 	"github.com/gorilla/mux"
 	"k8s.io/apimachinery/pkg/api/errors"
 
-	"github.com/kiali/kiali/business"
-	"github.com/kiali/kiali/models"
-	"github.com/kiali/kiali/prometheus"
-	"github.com/kiali/kiali/util"
+	"github.com/mayadata-io/kiali/business"
+	"github.com/mayadata-io/kiali/models"
+	"github.com/mayadata-io/kiali/prometheus"
+	"github.com/mayadata-io/kiali/util"
 )
 
 // ServiceList is the API handler to fetch the list of services in a given namespace

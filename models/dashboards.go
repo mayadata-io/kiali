@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/kiali/kiali/kubernetes/kiali_monitoring/v1alpha1"
-	"github.com/kiali/kiali/prometheus"
+	"github.com/mayadata-io/kiali/kubernetes/kiali_monitoring/v1alpha1"
+	"github.com/mayadata-io/kiali/prometheus"
 )
 
 // MonitoringDashboard is the model representing custom monitoring dashboard, transformed from MonitoringDashboard k8s resource

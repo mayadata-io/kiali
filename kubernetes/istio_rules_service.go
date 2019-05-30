@@ -5,7 +5,7 @@ import (
 
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/kiali/kiali/log"
+	"github.com/mayadata-io/kiali/log"
 )
 
 // GetIstioRules returns a list of mixer rules for a given namespace.

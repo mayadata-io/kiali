@@ -15,7 +15,7 @@ import (
 	kube "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/kiali/kiali/log"
+	"github.com/mayadata-io/kiali/log"
 )
 
 type (

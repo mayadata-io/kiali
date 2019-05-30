@@ -12,10 +12,10 @@ import (
 	core_v1 "k8s.io/api/core/v1"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/kiali/kiali/business"
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/graph"
-	"github.com/kiali/kiali/kubernetes/kubetest"
+	"github.com/mayadata-io/kiali/business"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/graph"
+	"github.com/mayadata-io/kiali/kubernetes/kubetest"
 )
 
 func setupWorkloads() *business.Layer {

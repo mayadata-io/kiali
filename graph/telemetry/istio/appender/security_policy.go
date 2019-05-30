@@ -6,10 +6,10 @@ import (
 
 	"github.com/prometheus/common/model"
 
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/graph"
-	"github.com/kiali/kiali/log"
-	"github.com/kiali/kiali/prometheus"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/graph"
+	"github.com/mayadata-io/kiali/log"
+	"github.com/mayadata-io/kiali/prometheus"
 )
 
 const (

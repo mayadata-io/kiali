@@ -8,8 +8,8 @@ import (
 	core_v1 "k8s.io/api/core/v1"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/kubernetes"
 )
 
 func TestServiceDetailParsing(t *testing.T) {

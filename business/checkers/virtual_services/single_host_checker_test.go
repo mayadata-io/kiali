@@ -3,9 +3,9 @@ package virtual_services
 import (
 	"testing"
 
-	"github.com/kiali/kiali/kubernetes"
-	"github.com/kiali/kiali/models"
-	"github.com/kiali/kiali/tests/data"
+	"github.com/mayadata-io/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/models"
+	"github.com/mayadata-io/kiali/tests/data"
 	"github.com/stretchr/testify/assert"
 )
 

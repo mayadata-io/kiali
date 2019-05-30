@@ -3,7 +3,7 @@ package routing
 import (
 	"net/http"
 
-	"github.com/kiali/kiali/handlers"
+	"github.com/mayadata-io/kiali/handlers"
 )
 
 // Route describes a single route

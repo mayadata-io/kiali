@@ -7,11 +7,11 @@ import (
 
 	core_v1 "k8s.io/api/core/v1"
 
-	"github.com/kiali/kiali/business"
-	"github.com/kiali/kiali/kubernetes"
-	"github.com/kiali/kiali/log"
-	"github.com/kiali/kiali/models"
-	"github.com/kiali/kiali/prometheus"
+	"github.com/mayadata-io/kiali/business"
+	"github.com/mayadata-io/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/log"
+	"github.com/mayadata-io/kiali/models"
+	"github.com/mayadata-io/kiali/prometheus"
 )
 
 type promClientSupplier func() (*prometheus.Client, error)

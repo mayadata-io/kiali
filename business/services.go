@@ -9,13 +9,13 @@ import (
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/labels"
 
-	"github.com/kiali/kiali/business/checkers"
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/kubernetes"
-	"github.com/kiali/kiali/log"
-	"github.com/kiali/kiali/models"
-	"github.com/kiali/kiali/prometheus"
-	"github.com/kiali/kiali/prometheus/internalmetrics"
+	"github.com/mayadata-io/kiali/business/checkers"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/log"
+	"github.com/mayadata-io/kiali/models"
+	"github.com/mayadata-io/kiali/prometheus"
+	"github.com/mayadata-io/kiali/prometheus/internalmetrics"
 )
 
 // SvcService deals with fetching istio/kubernetes services related content and convert to kiali model

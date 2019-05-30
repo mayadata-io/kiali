@@ -7,7 +7,7 @@ import (
 	batch_v1beta1 "k8s.io/api/batch/v1beta1"
 	core_v1 "k8s.io/api/core/v1"
 
-	"github.com/kiali/kiali/config"
+	"github.com/mayadata-io/kiali/config"
 )
 
 type WorkloadList struct {

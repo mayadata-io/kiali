@@ -1,11 +1,11 @@
 package checkers
 
 import (
-	"github.com/kiali/kiali/business/checkers/authorization"
-	"github.com/kiali/kiali/business/checkers/destinationrules"
-	"github.com/kiali/kiali/business/checkers/virtual_services"
-	"github.com/kiali/kiali/kubernetes"
-	"github.com/kiali/kiali/models"
+	"github.com/mayadata-io/kiali/business/checkers/authorization"
+	"github.com/mayadata-io/kiali/business/checkers/destinationrules"
+	"github.com/mayadata-io/kiali/business/checkers/virtual_services"
+	"github.com/mayadata-io/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/models"
 	core_v1 "k8s.io/api/core/v1"
 )
 

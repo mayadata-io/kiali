@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/kiali/kiali/status"
+	"github.com/mayadata-io/kiali/status"
 )
 
 // Healthz is a trivial endpoint that simply returns a 200 status code with no response body.

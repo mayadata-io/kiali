@@ -1,8 +1,8 @@
 package policies
 
 import (
-	"github.com/kiali/kiali/kubernetes"
-	"github.com/kiali/kiali/models"
+	"github.com/mayadata-io/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/models"
 )
 
 type NamespaceMtlsChecker struct {

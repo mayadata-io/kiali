@@ -5,8 +5,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/kiali/kiali/log"
-	"github.com/kiali/kiali/prometheus"
+	"github.com/mayadata-io/kiali/log"
+	"github.com/mayadata-io/kiali/prometheus"
 )
 
 func NamespaceList(w http.ResponseWriter, r *http.Request) {

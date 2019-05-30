@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kiali/kiali/config"
+	"github.com/mayadata-io/kiali/config"
 	osapps_v1 "github.com/openshift/api/apps/v1"
 	"github.com/stretchr/testify/assert"
 	apps_v1 "k8s.io/api/apps/v1"

@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/kiali/kiali/config"
+	"github.com/mayadata-io/kiali/config"
 )
 
 func TestValidateWebRoot(t *testing.T) {

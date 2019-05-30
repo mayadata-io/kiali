@@ -3,9 +3,9 @@ package appender
 import (
 	"time"
 
-	"github.com/kiali/kiali/business"
-	"github.com/kiali/kiali/graph"
-	"github.com/kiali/kiali/log"
+	"github.com/mayadata-io/kiali/business"
+	"github.com/mayadata-io/kiali/graph"
+	"github.com/mayadata-io/kiali/log"
 )
 
 const ServiceEntryAppenderName = "serviceEntry"

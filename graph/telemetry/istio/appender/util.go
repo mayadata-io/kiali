@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kiali/kiali/graph"
-	"github.com/kiali/kiali/log"
-	"github.com/kiali/kiali/prometheus/internalmetrics"
+	"github.com/mayadata-io/kiali/graph"
+	"github.com/mayadata-io/kiali/log"
+	"github.com/mayadata-io/kiali/prometheus/internalmetrics"
 	prom_v1 "github.com/prometheus/client_golang/api/prometheus/v1"
 	"github.com/prometheus/common/model"
 )

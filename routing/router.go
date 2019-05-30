@@ -5,9 +5,9 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/handlers"
-	"github.com/kiali/kiali/prometheus/internalmetrics"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/handlers"
+	"github.com/mayadata-io/kiali/prometheus/internalmetrics"
 )
 
 // NewRouter creates the router with all API routes and the static files handler

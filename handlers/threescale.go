@@ -2,13 +2,13 @@ package handlers
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/models"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/models"
 	"io/ioutil"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"net/http"
 
-	"github.com/kiali/kiali/log"
+	"github.com/mayadata-io/kiali/log"
 )
 
 func ThreeScaleStatus(w http.ResponseWriter, r *http.Request) {

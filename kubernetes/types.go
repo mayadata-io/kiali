@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kiali/kiali/config"
+	"github.com/mayadata-io/kiali/config"
 	apps_v1 "k8s.io/api/apps/v1"
 	autoscaling_v1 "k8s.io/api/autoscaling/v1"
 	core_v1 "k8s.io/api/core/v1"

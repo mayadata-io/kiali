@@ -113,7 +113,7 @@ who's responsible for the account, ask on IRC.
 
 The Pipeline uses the Jenkinsfile located at
 link:deploy/jenkins-ci/Jenkinsfile[deploy/jenkins-ci/Jenkinsfile]
-in the https://github.com/kiali/kiali/[kiali/kiali] repository.
+in the https://github.com/mayadata-io/kiali/[kiali/kiali] repository.
 
 The Pipeline performs the following actions to do the release:
 

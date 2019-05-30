@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/kiali/kiali/graph/config/cytoscape"
-	"github.com/kiali/kiali/handlers"
-	"github.com/kiali/kiali/models"
-	"github.com/kiali/kiali/prometheus"
-	"github.com/kiali/kiali/status"
+	"github.com/mayadata-io/kiali/graph/config/cytoscape"
+	"github.com/mayadata-io/kiali/handlers"
+	"github.com/mayadata-io/kiali/models"
+	"github.com/mayadata-io/kiali/prometheus"
+	"github.com/mayadata-io/kiali/status"
 )
 
 /////////////////////

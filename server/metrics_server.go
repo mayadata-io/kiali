@@ -6,8 +6,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/log"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/log"
 )
 
 var metricsServer *http.Server

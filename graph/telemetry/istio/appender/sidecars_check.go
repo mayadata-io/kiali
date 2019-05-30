@@ -1,8 +1,8 @@
 package appender
 
 import (
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/graph"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/graph"
 )
 
 const SidecarsCheckAppenderName = "sidecarsCheck"

@@ -9,11 +9,11 @@ import (
 
 	errors2 "k8s.io/apimachinery/pkg/api/errors"
 
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/kubernetes"
-	"github.com/kiali/kiali/log"
-	"github.com/kiali/kiali/models"
-	"github.com/kiali/kiali/prometheus/internalmetrics"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/kubernetes"
+	"github.com/mayadata-io/kiali/log"
+	"github.com/mayadata-io/kiali/models"
+	"github.com/mayadata-io/kiali/prometheus/internalmetrics"
 )
 
 type IstioConfigService struct {

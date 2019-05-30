@@ -4,7 +4,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/rest"
 
-	"github.com/kiali/kiali/kubernetes/kiali_monitoring/v1alpha1"
+	"github.com/mayadata-io/kiali/kubernetes/kiali_monitoring/v1alpha1"
 )
 
 // KialiMonitoringInterface for mocks (only mocked function are necessary here)

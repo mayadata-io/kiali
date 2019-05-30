@@ -1,9 +1,9 @@
 package appender
 
 import (
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/prometheus"
-	"github.com/kiali/kiali/prometheus/prometheustest"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/prometheus"
+	"github.com/mayadata-io/kiali/prometheus/prometheustest"
 	"github.com/prometheus/common/model"
 
 	"github.com/stretchr/testify/mock"

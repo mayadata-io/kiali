@@ -1,7 +1,7 @@
 package appender
 
 import (
-	"github.com/kiali/kiali/graph"
+	"github.com/mayadata-io/kiali/graph"
 )
 
 const DeadNodeAppenderName = "deadNode"

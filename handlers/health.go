@@ -7,9 +7,9 @@ import (
 	"github.com/gorilla/mux"
 	"k8s.io/apimachinery/pkg/api/errors"
 
-	"github.com/kiali/kiali/business"
-	"github.com/kiali/kiali/log"
-	"github.com/kiali/kiali/util"
+	"github.com/mayadata-io/kiali/business"
+	"github.com/mayadata-io/kiali/log"
+	"github.com/mayadata-io/kiali/util"
 )
 
 const defaultHealthRateInterval = "10m"

@@ -3,9 +3,9 @@ package services
 import (
 	"testing"
 
-	"github.com/kiali/kiali/models"
+	"github.com/mayadata-io/kiali/models"
 
-	"github.com/kiali/kiali/config"
+	"github.com/mayadata-io/kiali/config"
 	"github.com/stretchr/testify/assert"
 
 	apps_v1 "k8s.io/api/apps/v1"

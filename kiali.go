@@ -28,14 +28,14 @@ import (
 
 	"github.com/golang/glog"
 
-	"github.com/kiali/kiali/business"
-	"github.com/kiali/kiali/config"
-	"github.com/kiali/kiali/config/security"
-	"github.com/kiali/kiali/log"
-	"github.com/kiali/kiali/prometheus/internalmetrics"
-	"github.com/kiali/kiali/server"
-	"github.com/kiali/kiali/status"
-	"github.com/kiali/kiali/util"
+	"github.com/mayadata-io/kiali/business"
+	"github.com/mayadata-io/kiali/config"
+	"github.com/mayadata-io/kiali/config/security"
+	"github.com/mayadata-io/kiali/log"
+	"github.com/mayadata-io/kiali/prometheus/internalmetrics"
+	"github.com/mayadata-io/kiali/server"
+	"github.com/mayadata-io/kiali/status"
+	"github.com/mayadata-io/kiali/util"
 )
 
 // Identifies the build. These are set via ldflags during the build (see Makefile).

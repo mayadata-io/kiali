@@ -7,7 +7,7 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/kiali/kiali/graph"
+	"github.com/mayadata-io/kiali/graph"
 )
 
 func TestSecurityPolicy(t *testing.T) {

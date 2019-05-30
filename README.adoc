@@ -144,7 +144,7 @@ You need to first install the Kiali operator. This needs to be done only one tim
 
 [source,shell]
 ----
-cd ${GOPATH}/src/github.com/kiali/kiali/operator
+cd ${GOPATH}/src/github.com/mayadata-io/kiali/operator
 make operator-create
 ----
 
@@ -156,7 +156,7 @@ Now you can deploy Kiali. This creates a Kiali custom resource (CR) which instru
 
 [source,shell]
 ----
-cd ${GOPATH}/src/github.com/kiali/kiali/operator
+cd ${GOPATH}/src/github.com/mayadata-io/kiali/operator
 make kiali-create
 ----
 
@@ -168,7 +168,7 @@ If you want to remove Kiali, you can do so via the operator by executing the `ki
 
 [source,shell]
 ----
-cd ${GOPATH}/src/github.com/kiali/kiali/operator
+cd ${GOPATH}/src/github.com/mayadata-io/kiali/operator
 make kiali-delete
 ----
 
@@ -178,7 +178,7 @@ If you want to quickly purge your OpenShift environment of all Kiali resources, 
 
 [source,shell]
 ----
-cd ${GOPATH}/src/github.com/kiali/kiali/operator
+cd ${GOPATH}/src/github.com/mayadata-io/kiali/operator
 make purge-kiali
 ----
 
@@ -201,7 +201,7 @@ You can remove the Kiali operator by running this make command. Note: after this
 
 [source,shell]
 ----
-cd ${GOPATH}/src/github.com/kiali/kiali/operator
+cd ${GOPATH}/src/github.com/mayadata-io/kiali/operator
 make operator-delete
 ----
 
@@ -248,7 +248,7 @@ The same commands documented above that explain how to deploy and remove Kiali o
 
 [source,shell]
 ----
-cd ${GOPATH}/src/github.com/kiali/kiali/operator
+cd ${GOPATH}/src/github.com/mayadata-io/kiali/operator
 make operator-create
 make kiali-create
 make kiali-delete
@@ -415,7 +415,7 @@ Ask questions on the Kiali IRC channel (_#kiali_ on freenode) or the Google Grou
 === Issue tracking
 
 The Kiali team is using link:https://issues.jboss.org/browse/KIALI[JIRA] for issue tracking. 
-If you do not have a JIRA account, you can also https://github.com/kiali/kiali/issues[open issues here on GitHub] (we are monitoring this as well) for any bugs or problems you encounter or to suggest new features.
+If you do not have a JIRA account, you can also https://github.com/mayadata-io/kiali/issues[open issues here on GitHub] (we are monitoring this as well) for any bugs or problems you encounter or to suggest new features.
 
 When you are looking for issues to get started, you can use this https://issues.jboss.org/issues/?filter=12336706[JIRA query for good first issues].
 If you pick one from the list, please let us know by the above mentioned means.

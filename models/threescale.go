@@ -1,6 +1,6 @@
 package models
 
-import "github.com/kiali/kiali/kubernetes"
+import "github.com/mayadata-io/kiali/kubernetes"
 
 const (
 	BadThreeScaleHandlerJson = "bad ThreeScaleHandler JSON"
