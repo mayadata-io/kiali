@@ -2,20 +2,18 @@ matrix:
   include:
     - language: node_js
       node_js: '10'
-      before_script:
-        - cd ../
       script:
         - ./build-schript.sh  
     - language: go
       go: 1.9.4
       before_script:
-        - cd ../kiali
+        - pwd
         - make dep-install
         - make swagger-install
         - make gometalinter-install
         - make dep-update
       script:
-        - if [ ! -z "$(gofmt -l ${GO_FILES})" ]; then echo "These files need to be formatted:" "$(gofmt -l ${GO_FILES})";echo "Diff files:"; gofmt -d ${GO_FILES}; exit 1; fi # Gofmt Linter
+#        - if [ ! -z "$(gofmt -l ${GO_FILES})" ]; then echo "These files need to be formatted:" "$(gofmt -l ${GO_FILES})";echo "Diff files:"; gofmt -d ${GO_FILES}; exit 1; fi # Gofmt Linter
         - make lint
         - make clean build test-race
         - make swagger-travis
