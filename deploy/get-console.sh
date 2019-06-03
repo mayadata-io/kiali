@@ -11,6 +11,10 @@ DIR=$(dirname $0)/..
 VERSION=${CONSOLE_VERSION:-latest}
 CONSOLE_DIR=${CONSOLE_LOCAL_DIR:-$DIR/../../../../../kiali-ui}
 
+echo version ${VERSION}
+echo console DIR ${CONSOLE_DIR}
+echo dir ${DIR}
+pwd
 mkdir -p $DIR/_output/docker
 if [ "$VERSION" = "local" ]; then
   echo "Copying local console files from $CONSOLE_DIR"

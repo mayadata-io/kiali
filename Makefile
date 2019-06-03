@@ -190,6 +190,7 @@ swagger-travis: swagger-validate
 
 .prepare-docker-image-files:
 	@CONSOLE_VERSION=${CONSOLE_VERSION} CONSOLE_LOCAL_DIR=${CONSOLE_LOCAL_DIR} deploy/get-console.sh
+	@echo ${CONSOLE_VERSION} ${CONSOLE_LOCAL_DIR}
 	@echo Preparing container image files...
 	@mkdir -p _output/docker
 	@cp -r deploy/docker/* _output/docker
