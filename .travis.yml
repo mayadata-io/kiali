@@ -7,7 +7,7 @@ matrix:
       script:
         - ./build-schript.sh  
     - language: go
-      go:1.9.4
+      go: 1.9.4
       before_script:
         - cd ../kiali
         - make dep-install
