@@ -3,15 +3,17 @@ matrix:
     - language: node_js
       node_js: '10'
       script:
-        - ./build-schript.sh  
+        - ./build-script.sh
     - language: go
       go: 1.9.4
       before_script:
+        - GO_FILES=$(find . -iname '*.go' -type f | grep -v /vendor/) # All the .go files, excluding vendor/
+      install:
         - pwd
         - make dep-install
         - make swagger-install
         - make gometalinter-install
-        - make dep-update
+#        - make dep-update
       script:
 #        - if [ ! -z "$(gofmt -l ${GO_FILES})" ]; then echo "These files need to be formatted:" "$(gofmt -l ${GO_FILES})";echo "Diff files:"; gofmt -d ${GO_FILES}; exit 1; fi # Gofmt Linter
         - make lint
