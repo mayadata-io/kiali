@@ -6,6 +6,7 @@ echo $GO_BUILD_ENVVARS
 # build kiali-ui
 cd ../
 git clone https://github.com/mayadata-io/kiali-ui.git
+cd kiali-ui/
 git checkout master
 npm install -g yarn
 yarn
