@@ -7,7 +7,7 @@ matrix:
           - NODE_OPTIONS=--max_old_space_size=4096
       before_script:
         - ./build-script.sh
-      install: yarn --frozen-lockfile --non-interactive || (echo 'package.json is not in sync with yarn.lock, check that you include yarn.lock' && false)
+      # install: yarn --frozen-lockfile --non-interactive || (echo 'package.json is not in sync with yarn.lock, check that you include yarn.lock' && false)
       script:
         - yarn prettier --list-different &&
           yarn build:dev &&
