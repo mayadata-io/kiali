@@ -184,7 +184,7 @@ func validateConfig() error {
 		return fmt.Errorf("server static content root directory does not exist: %v", config.Get().Server.StaticContentRootDirectory)
 	}
 
-	validPathRegEx := regexp.MustCompile(`^\/[a-zA-Z0-9\-\._~!\$&\'()\*\+\,;=:@%/]*$`)
+	validPathRegEx := regexp.MustCompile(`^[a-zA-Z0-9\-\._~!\$&\'()\*\+\,;=:@%/]*$`)
 	webRoot := config.Get().Server.WebRoot
 	if !validPathRegEx.MatchString(webRoot) {
 		return fmt.Errorf("web root must begin with a / and contain valid URL path characters: %v", webRoot)
@@ -268,7 +268,7 @@ func updateBaseURL(webRootPath string) {
 	html := string(b)
 
 	searchStr := `<base href="/"`
-	newStr := `<base href="` + webRootPath + `/"`
+	newStr := `<base href="` + webRootPath + `"`
 	newHTML := strings.Replace(html, searchStr, newStr, -1)
 	if html != newHTML && strings.Contains(newHTML, newStr) {
 		log.Debugf("Base URL has been updated to [%v]", newStr)
