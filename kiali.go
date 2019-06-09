@@ -189,9 +189,6 @@ func validateConfig() error {
 	if !validPathRegEx.MatchString(webRoot) {
 		return fmt.Errorf("web root must begin with a / and contain valid URL path characters: %v", webRoot)
 	}
-	if webRoot != "/" && strings.HasSuffix(webRoot, "/") {
-		return fmt.Errorf("web root must not contain a trailing /: %v", webRoot)
-	}
 	if strings.Contains(webRoot, "/../") {
 		return fmt.Errorf("for security purposes, web root must not contain '/../': %v", webRoot)
 	}
