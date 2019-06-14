@@ -89,8 +89,9 @@ func main() {
 	status.Put(status.ConsoleVersion, consoleVersion)
 	status.Put(status.CoreVersion, version)
 	status.Put(status.CoreCommitHash, commitHash)
-
+	log.Infof("webroot check first", config.Get().Server.WebRoot)
 	if webRoot := config.Get().Server.WebRoot; webRoot != "/" {
+		log.Infof("webroot check", webRoot)
 		updateBaseURL(webRoot)
 		configToJS()
 	}
@@ -251,7 +252,9 @@ func configToJS() {
 
 // updateBaseURL updates index.html base href with web root string
 func updateBaseURL(webRootPath string) {
+	log.Infof("webroot", webRootPath)
 	if webRootPath == "/" {
+		log.Infof("webroot", webRootPath)
 		return // nothing to do - our web root path is already /
 	}
 
