@@ -41,6 +41,6 @@ script:
   - docker build -t mayadataio/kiali:$COMMIT -f ./kiali/Dockerfile .
 after_success:
 - if [ "$TRAVIS_BRANCH" = "mayadata-io" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then export REPO=mayadataio/kiali;
-   docker login -u "$DOCKER_USER" -p "$DOCKER_PASS" && ls -ltr && docker build  -t $REPO:v1.11.0 -f ./kiali/Dockerfile . && docker push $REPO:v1.11.0;
+   docker login -u "$DOCKER_USER" -p "$DOCKER_PASS" && ls -ltr && docker build  -t $REPO:v1.11.1 -f ./kiali/Dockerfile . && docker push $REPO:v1.11.1;
   fi
   
