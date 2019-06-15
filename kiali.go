@@ -89,6 +89,7 @@ func main() {
 	status.Put(status.ConsoleVersion, consoleVersion)
 	status.Put(status.CoreVersion, version)
 	status.Put(status.CoreCommitHash, commitHash)
+	log.Infof("webroot check first", config.Get())
 	log.Infof("webroot check first", config.Get().Server.WebRoot)
 	if webRoot := config.Get().Server.WebRoot; webRoot != "/" {
 		log.Infof("webroot check", webRoot)
@@ -267,8 +268,8 @@ func updateBaseURL(webRootPath string) {
 
 	html := string(b)
 
-	searchStr := `<base href="/"`
-	newStr := `<base href="` + webRootPath + `"`
+	searchStr := `<base href="./"`
+	newStr := `<base href="./` + webRootPath + `"`
 	newHTML := strings.Replace(html, searchStr, newStr, -1)
 	if html != newHTML && strings.Contains(newHTML, newStr) {
 		log.Debugf("Base URL has been updated to [%v]", newStr)
